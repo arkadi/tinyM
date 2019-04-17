@@ -17,7 +17,7 @@
        under the License.
  */
 
-package ge.atlast.haeri;
+package ge.atlast.tinyM;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

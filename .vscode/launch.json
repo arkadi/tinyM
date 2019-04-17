@@ -83,7 +83,7 @@
             "request": "launch",
             "platform": "android",
             "target": "chrome",
-            "simulatePort": 8000,
+            "simulatePort": 8003,
             "livereload": true,
             "sourceMaps": true,
             "cwd": "${workspaceFolder}"
@@ -94,7 +94,7 @@
             "request": "launch",
             "platform": "ios",
             "target": "ie",
-            "simulatePort": 8000,
+            "simulatePort": 8003,
             "livereload": true,
             "sourceMaps": true,
             "cwd": "${workspaceFolder}",
