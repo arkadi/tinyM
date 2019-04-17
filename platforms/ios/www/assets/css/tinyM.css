@@ -1,0 +1,50 @@
+
+/*iPhone XR*/
+@media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+    .navbar {
+        height: 44px !important;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    .navbar {
+        height: 44px !important;
+    }
+}
+
+/*iPhone XS*/
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+    .navbar {
+        height: 44px !important;
+    }
+}
+
+/*iPhone XS Max*/
+@media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 3) {
+    .navbar {
+        height: 44px !important;
+    }
+}
+
+.toolbar {
+    height: calc(constant(safe-area-inset-bottom) + 44px);
+    height: calc(env(safe-area-inset-bottom) + 44px);
+    left: 0;
+    bottom: 0;
+}
+
+.messageErrorClass {
+    background-color: #f2dede !important;
+    color: #a94442;
+}
+
+
+.messageInfoClass {
+    background-color: #d9edf7 !important;
+    color: #31708f;
+}
+
+.toast{
+    max-width:none;
+}
+
